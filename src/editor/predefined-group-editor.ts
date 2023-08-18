@@ -21,7 +21,7 @@ class PredefinedGroupEditor extends BaseEditor {
       },
       {
         name: 'entities',
-        selector: { entity: { multiple: true, filter: { integration: 'sonos', domain: 'media_player' } } },
+        selector: { entity: { multiple: true, filter: { integration: 'bangolufsen', domain: 'media_player' } } },
       },
     ];
     return html`
